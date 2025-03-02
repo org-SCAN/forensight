@@ -1,0 +1,49 @@
+{
+  "map": {
+    "filterBar": {
+      "all": "الكل",
+      "sex": {
+        "field_name": "الجنس",
+        "man": "ذكر",
+        "woman": "أنثى",
+        "unknown": "غير معروف"
+      },
+      "age": {
+        "field_name": "العمر",
+        "child": "طفل",
+        "adult": "بالغ",
+        "old": "مسن"
+      },
+      "types": {
+        "field_name": "الأنواع"
+      },
+      "startDate": "تاريخ البدء",
+      "endDate": "تاريخ الانتهاء"
+    },
+    "sideBar": {
+      "cases": "الحالات",
+      "noData": "لم يتم العثور على حالات."
+    }
+  },
+  "sideBar": {
+    "items-title": {
+      "recents": "الأخيرة",
+      "settings": "الإعدادات"
+    },
+    "buttons": {
+      "add": "فتح مجموعة البيانات",
+      "delete": "مسح جميع البيانات"
+    },
+    "settings": {
+      "blur": "طمس",
+      "map": {
+        "title": "الخريطة",
+        "default": "افتراضي",
+        "satellite": "الأقمار الصناعية",
+        "dark": "عرض داكن",
+        "heat-map": "Heat Map"
+      },
+      "language": "اللغة"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "map": {
+    "filterBar": {
+      "all": "Tout",
+      "sex": {
+        "field_name": "Sexe",
+        "man": "Homme",
+        "woman": "Femme",
+        "unknown": "Inconnu"
+      },
+      "age": {
+        "field_name": "Âge",
+        "child": "Enfant",
+        "adult": "Adulte",
+        "old": "Âgé"
+      },
+      "types": {
+        "field_name": "Types"
+      },
+      "startDate": "Date de début",
+      "endDate": "Date de fin"
+    },
+    "sideBar": {
+      "cases": "Cas",
+      "noData": "Aucun cas trouvé."
+    }
+  },
+  "sideBar": {
+    "items-title": {
+      "recents": "Récents",
+      "settings": "Réglages"
+    },
+    "buttons": {
+      "add": "Ouvrir le jeu de données",
+      "delete": "Effacer toutes les données"
+    },
+    "settings": {
+      "blur": "Flou",
+      "map": {
+        "title": "Carte",
+        "default": "Par défaut",
+        "satellite": "Satellite",
+        "dark": "Vue sombre",
+        "heat-map": "Heat Map"
+      },
+      "language": "Langue"
+    }
+  }
+}

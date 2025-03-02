@@ -1,0 +1,49 @@
+{
+  "map": {
+    "filterBar": {
+      "all": "All",
+      "sex": {
+        "field_name": "Sex",
+        "man": "Man",
+        "woman": "Woman",
+        "unknown": "Unknown"
+      },
+      "age": {
+        "field_name": "Age",
+        "child": "Child",
+        "adult": "Adult",
+        "old": "Old"
+      },
+      "types": {
+        "field_name": "Types"
+      },
+      "startDate": "Start Date",
+      "endDate": "End Date"
+    },
+    "sideBar": {
+      "cases": "Cases",
+      "noData": "No cases found."
+    }
+  },
+  "sideBar": {
+    "items-title": {
+      "recents": "Recents",
+      "settings": "Settings"
+    },
+    "buttons": {
+      "add": "Open Dataset",
+      "delete": "Erase All Data"
+    },
+    "settings": {
+      "blur": "Blur",
+      "map": {
+        "title": "Map",
+        "default": "Default",
+        "satellite": "Satellite",
+        "dark": "Dark View",
+        "heat-map": "Heat Map"
+      },
+      "language": "Language"
+    }
+  }
+}

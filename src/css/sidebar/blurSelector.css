@@ -1,0 +1,87 @@
+.blur-selector {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #FFFFFF;
+  padding: 10px;
+  border-radius: 6px;
+  color: #222; 
+  border: 1px solid #DDD;
+  transition: background 0.3s;
+}
+
+.blur-selector.blur-icon {
+  justify-content: center;
+}
+
+.blur-selector:hover {
+  background-color: #F0F0F0; 
+}
+
+.blur-text {
+  font-size: 14px;
+  font-weight: bold;
+  flex-grow: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #222; 
+}
+
+/* Blur Slider */
+.blur-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100px;
+  height: 6px;
+  border-radius: 5px;
+  background: #DDD; 
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.blur-slider:hover {
+  background: #CCC;
+}
+
+/* Slider Thumb */
+.blur-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #BF0413; 
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.blur-slider::-webkit-slider-thumb:hover {
+  background: #9B030F; 
+}
+
+.blur-slider::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #BF0413;
+  cursor: pointer;
+}
+
+.toggle-icon input {
+  display: none;
+}
+.toggle-icon {
+  align-items: center;
+  justify-content: center;
+}
+
+.blur-icon {
+  font-size: 15px; 
+  cursor: pointer;
+  color: #222;
+  transition: color 0.3s ease-in-out;
+}
+.toggle-icon input:checked + .blur-icon {
+  color: #BF0413;
+}
