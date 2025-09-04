@@ -82,7 +82,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "electron": "^34.2.0",
+    "electron": "^35.7.5",
     "electron-builder": "^25.1.8",
     "electron-packager": "^17.1.2"
   }
